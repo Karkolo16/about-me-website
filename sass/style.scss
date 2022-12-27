@@ -1,0 +1,139 @@
+/* Global */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+$color-main:#2c3e50;
+$font-family:sans-serif;
+$font-text:'Roboto', sans-serif;
+$font-header:'Tiro Bangla', serif;
+body{
+    font-family: $font-text;
+    margin:0;
+    text-align: center;
+    background:#fff;
+    color:#3d3d3d;
+    font-size: 16px;
+    line-height: 1.7;
+}
+
+.container {
+    max-width: 1140px;
+    margin:0 auto;
+    padding:0 20px;
+    
+}
+
+section{
+    padding: 108px 0;
+}
+
+/* Splash */
+.splash{
+    height:100vh;
+    position:relative;
+    background-image: url('https://i.postimg.cc/fLXXBgTp/pexels-sam-kolder-2387873.jpg');
+    background-position: 10% 30%;
+    background-size:cover;
+    background-attachment:fixed;
+}
+
+
+/* to ponizej daje na srodku napis srodek splash jest wycentrowany */
+.splash-inner{
+    position:absolute;
+    width:100%;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+}
+    
+.splash i {
+    font-size: 45px;
+    background:$color-main;
+    width:60px;
+    height:60px;
+    line-height: 60px;
+    color: #fff;
+    border-radius:50%;
+        
+}
+    
+.page-title{
+    color:#fff;
+    font-size:45px;
+    margin: 48px 0 0 0;
+    position:relative;
+    font-family:$font-header;
+    font-weight:10;
+    background:rgba(0, 0, 0, 0.2);
+    word-spacing: 5px;
+}
+    /* dekoracja podkreslenie*/
+.page-title::after {
+        
+    position: absolute;
+    content: '';
+    bottom: -24px;
+    left: 50%;
+    width: 80%;
+    height: 4px;
+    transform: translateX(-50%);
+    background:$color-main;
+}
+        
+.page-subtitle {
+    color: #fff;
+    margin: 48px 0 0 0;
+    font-family:$font-family;
+    font-weight:10;
+    font-style: italic; 
+}
+
+/* Intro */
+.intro {
+    background:#fff;   
+}
+
+.intro span{
+    color: green;
+}
+            
+.intro p {
+    width:70%;
+    margin:0 auto;
+    padding:48px 0;
+    font-size:24px;
+    border-top: 1px solid $color-main;
+    border-bottom: 1px solid $color-main;
+    font-family:$font-family;
+    font-weight:4;
+    font-style:italic;
+}
+            
+.section-title{
+    position:relative;
+    font-size:36px;
+    margin: 0 0 60px 0;
+    font-family: $font-header;
+    font-weight:900;   
+}
+        
+.section-title::after{
+    position: absolute;
+    content: '';
+    bottom: -24px;
+    left: 50%;
+    width: 50px;
+    height: 4px;
+    transform: translateX(-50%);
+    background:$color-main;
+    word-spacing: 5px;
+    bottom:-12px;
+            
+}
+            
+/* About */
+.about {
+    background:#f0f0f0;
+}

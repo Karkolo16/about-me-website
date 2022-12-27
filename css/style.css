@@ -1,0 +1,133 @@
+/* Global */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  text-align: center;
+  background: #fff;
+  color: #3d3d3d;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+section {
+  padding: 108px 0;
+}
+
+/* Splash */
+.splash {
+  height: 100vh;
+  position: relative;
+  background-image: url("https://i.postimg.cc/fLXXBgTp/pexels-sam-kolder-2387873.jpg");
+  background-position: 10% 30%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* to ponizej daje na srodku napis srodek splash jest wycentrowany */
+.splash-inner {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.splash i {
+  font-size: 45px;
+  background: #2c3e50;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.page-title {
+  color: #fff;
+  font-size: 45px;
+  margin: 48px 0 0 0;
+  position: relative;
+  font-family: "Tiro Bangla", serif;
+  font-weight: 10;
+  background: rgba(0, 0, 0, 0.2);
+  word-spacing: 5px;
+}
+
+/* dekoracja podkreslenie*/
+.page-title::after {
+  position: absolute;
+  content: "";
+  bottom: -24px;
+  left: 50%;
+  width: 80%;
+  height: 4px;
+  transform: translateX(-50%);
+  background: #2c3e50;
+}
+
+.page-subtitle {
+  color: #fff;
+  margin: 48px 0 0 0;
+  font-family: sans-serif;
+  font-weight: 10;
+  font-style: italic;
+}
+
+/* Intro */
+.intro {
+  background: #fff;
+}
+
+.intro span {
+  color: green;
+}
+
+.intro p {
+  width: 70%;
+  margin: 0 auto;
+  padding: 48px 0;
+  font-size: 24px;
+  border-top: 1px solid #2c3e50;
+  border-bottom: 1px solid #2c3e50;
+  font-family: sans-serif;
+  font-weight: 4;
+  font-style: italic;
+}
+
+.section-title {
+  position: relative;
+  font-size: 36px;
+  margin: 0 0 60px 0;
+  font-family: "Tiro Bangla", serif;
+  font-weight: 900;
+}
+
+.section-title::after {
+  position: absolute;
+  content: "";
+  bottom: -24px;
+  left: 50%;
+  width: 50px;
+  height: 4px;
+  transform: translateX(-50%);
+  background: #2c3e50;
+  word-spacing: 5px;
+  bottom: -12px;
+}
+
+/* About */
+.about {
+  background: #f0f0f0;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxXQUFBO0FBQ0E7RUFDQyxzQkFBQTtBQ0NEOztBRE1BO0VBQ0ksaUNBSE87RUFJUCxTQUFBO0VBQ0Esa0JBQUE7RUFDQSxnQkFBQTtFQUNBLGNBQUE7RUFDQSxlQUFBO0VBQ0EsZ0JBQUE7QUNISjs7QURNQTtFQUNJLGlCQUFBO0VBQ0EsY0FBQTtFQUNBLGVBQUE7QUNISjs7QURPQTtFQUNJLGdCQUFBO0FDSko7O0FET0EsV0FBQTtBQUNBO0VBQ0ksYUFBQTtFQUNBLGtCQUFBO0VBQ0Esb0ZBQUE7RUFDQSw0QkFBQTtFQUNBLHNCQUFBO0VBQ0EsNEJBQUE7QUNKSjs7QURRQSxvRUFBQTtBQUNBO0VBQ0ksa0JBQUE7RUFDQSxXQUFBO0VBQ0EsUUFBQTtFQUNBLFNBQUE7RUFDQSxnQ0FBQTtBQ0xKOztBRFFBO0VBQ0ksZUFBQTtFQUNBLG1CQS9DUTtFQWdEUixXQUFBO0VBQ0EsWUFBQTtFQUNBLGlCQUFBO0VBQ0EsV0FBQTtFQUNBLGtCQUFBO0FDTEo7O0FEU0E7RUFDSSxXQUFBO0VBQ0EsZUFBQTtFQUNBLGtCQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQ0ExRFM7RUEyRFQsZUFBQTtFQUNBLDhCQUFBO0VBQ0EsaUJBQUE7QUNOSjs7QURRSSwwQkFBQTtBQUNKO0VBRUksa0JBQUE7RUFDQSxXQUFBO0VBQ0EsYUFBQTtFQUNBLFNBQUE7RUFDQSxVQUFBO0VBQ0EsV0FBQTtFQUNBLDJCQUFBO0VBQ0EsbUJBNUVRO0FDc0VaOztBRFNBO0VBQ0ksV0FBQTtFQUNBLGtCQUFBO0VBQ0EsdUJBakZTO0VBa0ZULGVBQUE7RUFDQSxrQkFBQTtBQ05KOztBRFNBLFVBQUE7QUFDQTtFQUNJLGdCQUFBO0FDTko7O0FEU0E7RUFDSSxZQUFBO0FDTko7O0FEU0E7RUFDSSxVQUFBO0VBQ0EsY0FBQTtFQUNBLGVBQUE7RUFDQSxlQUFBO0VBQ0EsNkJBQUE7RUFDQSxnQ0FBQTtFQUNBLHVCQXRHUztFQXVHVCxjQUFBO0VBQ0Esa0JBQUE7QUNOSjs7QURTQTtFQUNJLGtCQUFBO0VBQ0EsZUFBQTtFQUNBLGtCQUFBO0VBQ0EsaUNBN0dTO0VBOEdULGdCQUFBO0FDTko7O0FEU0E7RUFDSSxrQkFBQTtFQUNBLFdBQUE7RUFDQSxhQUFBO0VBQ0EsU0FBQTtFQUNBLFdBQUE7RUFDQSxXQUFBO0VBQ0EsMkJBQUE7RUFDQSxtQkE1SFE7RUE2SFIsaUJBQUE7RUFDQSxhQUFBO0FDTko7O0FEVUEsVUFBQTtBQUNBO0VBQ0ksbUJBQUE7QUNQSiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */

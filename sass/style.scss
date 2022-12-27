@@ -8,7 +8,7 @@ $font-family:sans-serif;
 $font-text:'Roboto', sans-serif;
 $font-header:'Tiro Bangla', serif;
 body{
-    font-family: $font-text;
+    font-family: $font-family;
     margin:0;
     text-align: center;
     background:#fff;
@@ -104,7 +104,7 @@ section{
     color:green;
     text-decoration: none;
     background-color: rgba(0, 0, 0, 0.1);
-    font-style: bold;
+
 }
             
 .intro p {
@@ -144,4 +144,12 @@ section{
 /* About */
 .about {
     background:#f0f0f0;
+    font-style: italic;
+    color: #3d3d3d;
 }
+
+.about img{
+    height: 200px;
+}
+
+/*my skillzz*/

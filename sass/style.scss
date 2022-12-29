@@ -197,6 +197,12 @@ section{
     color: #000;
 }
 
+@media (max-width: 767px) {
+    .skill-image {
+        flex-direction:column;
+    }
+
+}
 
 
             

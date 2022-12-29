@@ -144,9 +144,13 @@ section{
 /* About */
 .about {
     background:#f0f0f0;
-    font-style: italic;
     color: #3d3d3d;
 }
+
+.about p {
+    font-style: italic;
+}
+
 
 .about img{
     height: 200px;

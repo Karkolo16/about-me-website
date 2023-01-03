@@ -228,12 +228,34 @@ margin:0;
 background-color: inherit;
 }
 
+.navigation ul ul{
+    display:none;
+}
+
+.navigation ul ul li{
+    display: block;
+    margin:0 0 12px 0;
+    border-right-style: none;
+    border-bottom-style: solid;
+}
+
+.navigation ul ul li:hover{
+    background-color: lightgray;
+    
+}
+
+.navigation li:hover ul{
+    display:block;
+    text-align:center;   
+    padding:12px;
+    position:absolute;
+
+}
+
 .navigation li {
     display:inline-block;
     margin:0px 36px 0px 0px; 
-    border-right-style: solid;
-
-    
+    border-right-style: solid
 }
 
 .navigation a{

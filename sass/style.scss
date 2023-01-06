@@ -313,3 +313,10 @@ background-color: inherit;
     font-size: 12px;
 }
 
+/*my work*/
+
+.work-wrapper{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}

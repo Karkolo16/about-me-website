@@ -326,3 +326,18 @@ background-color: inherit;
     flex: 0 0 50%;
     padding: 15px;
 }
+.portfolio-image {
+    display: flex;
+    flex: 0 0 50%;
+    position: relative;
+    margin-right:  25px;
+    min-height: 300px;
+}
+
+.portfolio-image img{
+    display: flex;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    max-width: 250px;
+}

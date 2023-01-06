@@ -320,3 +320,9 @@ background-color: inherit;
     flex-wrap:wrap;
     justify-content:space-between;
 }
+
+.my-work{
+    display: flex;
+    flex: 0 0 50%;
+    padding: 15px;
+}

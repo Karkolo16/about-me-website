@@ -29,6 +29,72 @@ section{
     padding: 96px 0;
 }
 
+/*New navbar*/
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(206, 222, 239);
+    color: rgb(0, 0, 0);
+}
+
+.brand-title{
+    font-size: 24px;
+    margin: 8px;
+    font-family: $font-family;
+}
+
+.navbar-links ul {
+    margin:0;
+    padding: 0;
+    display: flex;
+}
+.navbar-links li {
+    list-style: none;
+}
+.navbar-links li a {
+    text-decoration: none;
+    color: black;
+    padding: 16px;
+    display: block;
+    font-size: 24px;
+}
+.navbar-links li:hover{
+    background-color: #555;
+}
+
+.navbar ul ul{
+    display: none;
+}
+
+.navbar  ul ul li{
+    display: block;
+}
+
+.navbar  ul ul li:hover{
+    background-color: lightblue;
+}
+
+
+
+.toggler{
+    position: absolute;
+    top:12px;
+    right:16px;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+.toggler .bar{
+    height:3px;
+    width:100%;
+    background-color: rgb(5, 5, 5);
+    border-radius: 10px;
+}
+
 /* Splash */
 .splash{
     height:100vh;
@@ -70,7 +136,8 @@ section{
     background:rgba(0, 0, 0, 0.2);
     word-spacing: 5px;
 }
-    /* dekoracja podkreslenie*/
+
+/* dekoracja podkreslenie*/
 .page-title::after {
         
     position: absolute;
@@ -205,63 +272,7 @@ section{
 
 
 /*NAVIGATION*/
-.navigation{
-    background-color:transparent;
-    padding:12px 0; 
-    font-size: 18px;
-    float: left;
-    position:fixed;
-}
 
-.navigation ul{
-
-list-style-type: none;
-padding: 0;
-margin:0;
-background-color: inherit;
-}
-
-.navigation ul ul{
-    display:none;
-}
-
-.navigation ul ul li{
-    display: block;
-    margin:0 0 12px 0;
-    border-right-style: none;
-    border-bottom-style: solid;
-}
-
-.navigation ul ul li:hover{
-    background-color: lightgray;
-    
-}
-
-.navigation li:hover ul{
-    display:block;
-    text-align:center;   
-    padding:12px;
-    position:absolute;
-
-}
-
-.navigation li {
-    display:inline-block;
-    margin:0px 36px 0px 0px; 
-    border-right-style: solid
-}
-
-.navigation a{
-    text-decoration: none;
-    color:black;
-    text-align:center;
-    padding:14px 16px;
-}
-
-.navigation li:hover{
-    background-color:white;
-    
-}
 
 /*Hobbies*/
 .hobbies-wrapper{
@@ -343,7 +354,7 @@ background-color: inherit;
 }
 
 
-@media (max-width: 600px) {
+@media (max-width: 767px) {
     .skill-image {
         flex-direction:column;
     }
@@ -355,17 +366,31 @@ background-color: inherit;
     max-height: 100%;
     }
 
-
-    .navigation{
-        font-size: 12px;
-        position: fixed;
-        
+    .toggler{
+        display: flex;
     }
-
-    .navigation li {
-        border-right-style: 1px solid;
+    .navbar-links{
+        display: none;
+        width:100%;
     }
-
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul{
+        flex-direction: column;
+        width:100%;
+    }
+    .navbar-links li{
+        text-align: center;
+    }
+    .navbar-links li a{
+        padding:8px 16px;
+        font-size: 16px;
+    }
+    .navbar-links.active{
+        display: flex;
+    }
     .page-footer{
         width:100%;
     }

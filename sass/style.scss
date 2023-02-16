@@ -35,7 +35,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(206, 222, 239);
+    background-color: lightgray;
     color: rgb(0, 0, 0);
 }
 
@@ -64,17 +64,7 @@ section{
     background-color: #555;
 }
 
-.navbar ul ul{
-    display: none;
-}
 
-.navbar  ul ul li{
-    display: block;
-}
-
-.navbar  ul ul li:hover{
-    background-color: lightblue;
-}
 
 
 

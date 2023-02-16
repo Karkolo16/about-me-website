@@ -312,7 +312,7 @@ section{
     font-size: 12px;
 }
 
-/*my work*/
+/*portfolio*/
 
 .work-wrapper{
     display:flex;
@@ -358,7 +358,10 @@ section{
         }
     .my-work {
     max-width: 100%;
-    max-height: 100%;
+    max-height: 350px;
+    }
+    .work-wrapper{
+        flex-direction: column;
     }
 
     .toggler{

@@ -14,7 +14,6 @@ body{
     background:#fff;
     color:#3d3d3d;
     font-size: 16px;
-    line-height: 1.7;
  
 }
 
@@ -87,22 +86,27 @@ section{
 
 /* Splash */
 .splash{
-    height:100vh;
-    position:relative;
-    background-image: url('https://i.postimg.cc/fLXXBgTp/pexels-sam-kolder-2387873.jpg');
-    background-position: 10% 30%;
-    background-size:cover;
-    background-attachment:fixed;
+    min-height:500px;
+    display:flex;
+
+   // height:100vh;
+   // position:relative;
+   background-image: url('https://i.postimg.cc/fLXXBgTp/pexels-sam-kolder-2387873.jpg');
+    background-position: 20% 40%;
+   background-size:cover;
+   // background-attachment:fixed;
 }
 
 
 /* to ponizej daje na srodku napis srodek splash jest wycentrowany */
 .splash-inner{
-    position:absolute;
-    width:100%;
-    top:50%;
-    left:50%;
-    transform:translate(-50%,-50%);
+    //position:absolute;
+    //width:100%;
+    //top:50%;
+    //left:50%;
+    //transform:translate(-50%,-50%);
+    margin: auto;
+    max-width:70%;  
 }
     
 .splash i {
@@ -207,6 +211,7 @@ section{
 
 .about p {
     font-style: italic;
+    line-height: 25px;
 }
 
 

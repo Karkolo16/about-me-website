@@ -308,7 +308,6 @@ section{
 
 
 
-/*NAVIGATION*/
 
 
 /*Hobbies*/
@@ -392,6 +391,37 @@ section{
 
 
 @media (max-width: 767px) {
+
+    .about .container{
+        width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    .content{
+        float: none;
+        width: 100%;
+        text-align: center;
+        display: block;
+        margin: auto;
+    }
+
+    .image-section{
+        float: none;
+        width: 100%;
+        display: block;
+        margin: auto;
+    }
+
+    .social{
+        text-align: center;
+    }
+
+    .content h2{
+        text-align: center;
+        font-size: 36px;
+    }
+
     .skill-image {
         flex-direction:column;
     }

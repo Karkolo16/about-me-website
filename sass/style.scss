@@ -391,7 +391,7 @@ section{
 
 
 @media (max-width: 767px) {
-
+/*ABOUT ME*/
     .about .container{
         width: 80%;
         display: block;
@@ -421,6 +421,8 @@ section{
         text-align: center;
         font-size: 36px;
     }
+/*END ABOUT ME*/
+
 
     .skill-image {
         flex-direction:column;
@@ -428,14 +430,16 @@ section{
     .hobbies-wrapper{
         flex-direction:column;
         }
+
     .my-work {
     max-width: 100%;
     max-height: 350px;
     }
+
     .work-wrapper{
         flex-direction: column;
     }
-
+/*NAV*/
     .toggler{
         display: flex;
     }
@@ -461,6 +465,7 @@ section{
     .navbar-links.active{
         display: flex;
     }
+/*end nav*/
     .page-footer{
         width:100%;
     }

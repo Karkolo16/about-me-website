@@ -235,11 +235,13 @@ section{
 .skill-image{
     display:flex;
     flex-wrap:wrap;
-    justify-content:space-between;
+    justify-content:space-evenly;
+
 }
 
 .skill-item{
     align-items: center;
+  
 }
 .one{
     scale:90%;

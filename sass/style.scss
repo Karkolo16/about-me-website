@@ -273,6 +273,7 @@ section{
 }
 
 .hero{
+    flex-wrap: wrap;
     width:100%;
     display: flex;
     justify-content: space-between;
@@ -282,6 +283,7 @@ section{
     padding: 20px 20px;
     cursor: pointer;
     background-color: #eee;
+    height: auto;
 }
 
 .hero:hover{
@@ -306,8 +308,10 @@ section{
 }
 
 .hero p {
-    margin-bottom: 30px;
-    line-height: 1.5;
+    height:130px;
+    line-height:30px;
+    padding:10px;
+    text-align: justify;
     
 }
 
@@ -425,7 +429,7 @@ section{
 }
 
 
-@media (max-width: 767px) {
+@media screen and (max-width: 800px) {
 /*ABOUT ME*/
     .about .container{
         width: 80%;

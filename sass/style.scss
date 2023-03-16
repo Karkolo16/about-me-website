@@ -303,8 +303,12 @@ section{
     font-size: 30px;
     margin-bottom: 20px;
     color: #0a761a ;
-    border: solid 2px;
-    border-radius: 20%;
+}
+
+.hero p {
+    margin-bottom: 30px;
+    line-height: 1.5;
+    
 }
 
 /*buttons*/
@@ -453,11 +457,17 @@ section{
         font-size: 36px;
     }
 /*END ABOUT ME*/
-
-
-    .skill-image {
-        flex-direction:column;
+/*SKILLS*/
+    .content-section{
+        display: flex;
+        flex-direction: column;
     }
+    .hero{
+        width:100%;
+        display: flex;
+        margin: 20px 0;
+    }
+
     .hobbies-wrapper{
         flex-direction:column;
         }

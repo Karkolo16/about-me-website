@@ -3,6 +3,8 @@
 	box-sizing: border-box;
 }
 
+
+
 $color-main:#2c3e50;
 $font-family:sans-serif;
 $font-text:'Roboto', sans-serif;
@@ -434,6 +436,7 @@ section{
     .my-work {
     max-width: 100%;
     max-height: 350px;
+    flex: none;
     }
 
     .work-wrapper{

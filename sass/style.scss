@@ -217,8 +217,17 @@ section{
 
 .about img{
     height: 200px;
+    cursor: pointer;
+    filter: grayscale(0.8);
 }
 
+.about img:hover{
+    transform: scale(
+        2,2
+    );
+    transition: 0.5s;
+    filter: none;
+}
 
 
 /*my skillzz*/

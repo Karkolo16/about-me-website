@@ -263,19 +263,24 @@ section{
 
 /*my skillzz*/
                
-.skill-image{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-evenly;
-
-}
-
-.skill-item{
+.content-section{
+    width:85%;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-  
+    margin: 75px auto;
+    text-align: center;
 }
-.one{
-    scale:90%;
+.hero{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 15px;
+    padding: 20px 20px;
+    cursor: pointer;
+    background-color: #eee;
 }
 
 /*buttons*/

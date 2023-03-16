@@ -205,9 +205,9 @@ section{
             
 /* About */
 .about{
-    min-height: 100vh;
     width: 100%;
     background-color:lightgrey ;
+    min-height: 80vh;
 }
 
 .about .container{
@@ -216,15 +216,33 @@ section{
     margin: auto;
 }
 
-.description-me{
+.content{
     float: left;
-    width: 55%;
+    width: 35%;
+    text-align: left;
+}
+
+.content h2{
+    text-align: center;
+    font-size: 48px;
 }
 
 .image-section{
     float: right;
     width: 40%;
 }
+
+.image-section img{
+    width: 100%;
+    height: auto;
+}
+
+.description-me p {
+    margin-top: 10px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
 
 
 /*my skillzz*/

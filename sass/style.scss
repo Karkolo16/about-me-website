@@ -393,39 +393,7 @@ section{
 
 /*portfolio*/
 
-.work-wrapper{
-    display:flex;
-    flex-wrap:wrap;
-    justify-content:space-between;
-}
 
-.my-work{
-    display: flex;
-    flex: 0 0 50%;
-    padding: 15px;
-}
-.portfolio-image {
-    display: flex;
-    flex: 0 0 50%;
-    position: relative;
-    margin-right:  25px;
-    min-height: 300px;
-}
-
-.portfolio-image img{
-    display: flex;
-    height: 100%;
-    object-fit: cover;
-    overflow: hidden;
-    max-width: 250px;
-}
-
-.portfolio-image:hover img{
-    color: white;
-    opacity: 0.3;
-    transform: scale(0.8, 0.8); 
-    transition: all 0.40s;
-}
 
 
 @media screen and (max-width: 900px) {

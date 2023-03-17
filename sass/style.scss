@@ -36,8 +36,8 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: lightgray;
-    color: rgb(0, 0, 0);
+    background:rgba(107, 86, 17, 0.3);
+    color: #2c3e50;
 }
 
 .brand-title{
@@ -56,13 +56,15 @@ section{
 }
 .navbar-links li a {
     text-decoration: none;
-    color: black;
+    color: #2c3e50;
     padding: 16px;
     display: block;
+    color:#fff;
     font-size: 24px;
 }
 .navbar-links li:hover{
     background-color: #555;
+    transition: all 0.7s;
 }
 
 

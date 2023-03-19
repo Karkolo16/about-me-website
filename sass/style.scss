@@ -204,75 +204,73 @@ section{
 }
             
 /* About */
-.about{
+.about {
     width: 100%;
-    background-color:lightgrey ;
-    min-height: 80vh;
-}
-
-.about .container{
+    background-color: lightgrey;
+    min-height: 90vh;
+  }
+  
+  .about .container {
     width: 80%;
     display: block;
     margin: auto;
-}
-
-.content{
+  }
+  
+  .content {
     float: left;
     width: 35%;
     text-align: left;
-}
-
-.content h2{
+  }
+  
+  .content h2 {
     text-align: center;
     font-size: 48px;
-}
-
-.image-section{
+  }
+  
+  .image-section {
     float: right;
-    width: 40%;
-}
-
-.image-section img{
+    width: 50%;
+  }
+  
+  .image-section img {
     width: 100%;
-    height: 600px;
-}
-
-.description-me p {
+    height: 550px;
+    border: #fff solid 2px;
+    border-radius: 30%;
+  }
+  
+  .description-me p {
     margin-top: 10px;
     font-size: 17px;
     line-height: 1.5;
-}
-
-.social{
-    margin:40px 40px;
-}
-
-.social i {
+  }
+  
+  .social {
+    margin: 40px 40px;
+  }
+  
+  .social i {
     font-size: 36px;
     color: #2c3e50;
     padding: 0 15px;
-}
-
-.social i:hover{
-    color:#0a761a
-}
-
-
-
-/*my skillzz*/
-               
-.content-section{
-    width:80%;
+  }
+  
+  .social i:hover {
+    color: #0a761a;
+  }
+  
+  /*my skillzz*/
+  .content-section {
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin: 75px;
     text-align: center;
-
-}
-
-.hero{
-    width:80%;
+  }
+  
+  .hero {
+    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -281,41 +279,39 @@ section{
     padding: 20px 20px;
     cursor: pointer;
     background-color: #eee;
-    
-}
-
-.hero:hover{
+    height: 100%;
+  }
+  
+  .hero:hover {
     background-color: #2c3e50;
-    transition:  0.6s ease;
+    transition: 0.6s ease;
     transform: scale(1.1);
-    color:white;
-    .icon{
-        color: white;
-    }
-
-}
-
-.hero .icon{
+    color: white;
+  }
+  .hero:hover .icon {
+    color: white;
+  }
+  
+  .hero .icon {
     font-size: 45px;
     color: #000;
     margin-bottom: 10px;
-}
-
-.hero h3{
+  }
+  
+  .hero h3 {
     font-size: 30px;
     margin-bottom: 20px;
-    color: #0a761a ;
-}
-
-.hero p {
-    line-height:30px;
-    padding:10px;
+    color: #0a761a;
+  }
+  
+  .hero p {
+    line-height: 30px;
+    padding: 10px;
     text-align: justify;
-    height: 130px;
-}
+    height:min-content;
+  }
 
 /*buttons*/
-
 .btn{
     display: inline-block;
     min-width:160px;

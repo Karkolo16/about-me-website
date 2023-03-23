@@ -76,6 +76,29 @@ header {
 }
 
 /*NAV*/
+ul {
+  list-style: none;
+}
+.navbar {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+.nav-links li {
+  margin: 0 30px;
+}
 
 /* Intro */
 .intro {

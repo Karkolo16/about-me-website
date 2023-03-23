@@ -76,6 +76,14 @@ header {
 }
 
 /*NAV*/
+
+.menu-btn {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  cursor: pointer;
+}
+
 ul {
   list-style: none;
 }
@@ -480,5 +488,9 @@ ul {
     width: 100%;
     height: 100vh;
     justify-content: center;
+  }
+
+  .nav-links li {
+    margin: 30px auto;
   }
 }

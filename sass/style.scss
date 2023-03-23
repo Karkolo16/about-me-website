@@ -82,6 +82,7 @@ header {
   top: 30px;
   right: 30px;
   cursor: pointer;
+  display: none;
 }
 
 ul {
@@ -114,6 +115,8 @@ ul {
   color: #7c7cc4;
   text-decoration: underline;
   font-weight: bold;
+  font-size: 36px;
+  transition: all 0.5s;
 }
 
 .nav-links li {
@@ -479,9 +482,7 @@ ul {
     background-color: rgba(0, 0, 0, 0.9);
   }
   .logo {
-    position: absolute;
-    top: 30px;
-    left: 30px;
+    display: none;
   }
 
   .nav-links {
@@ -490,10 +491,18 @@ ul {
     height: 100vh;
     justify-content: center;
     margin-top: -900px;
+    transition: all 0.5s ease;
   }
 
   .mobile-menu {
     margin-top: 0;
+  }
+  .menu-btn {
+    display: block;
+    font-size: 20px;
+    background-color: #7c7cc4;
+    color: whitesmoke;
+    border-radius: 10%;
   }
 
   .nav-links li {

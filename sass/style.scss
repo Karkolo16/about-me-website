@@ -38,6 +38,24 @@ header{
     background-image: url('https://i.postimg.cc/fLXXBgTp/pexels-sam-kolder-2387873.jpg');
     background-position: bottom;
     background-size:cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.home{
+    margin-bottom: 150px;
+    color: whitesmoke;
+    text-align: center;
+}
+
+.home h1{
+    font-size: 48px;
+}
+.line{
+    width: 150px;
+    height: 4px;
+    background-color: #03034f ;
 }
 
 .contact{

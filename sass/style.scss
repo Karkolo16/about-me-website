@@ -509,3 +509,9 @@ ul {
     margin: 30px auto;
   }
 }
+
+@media (max-width: 400px) {
+  .home {
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+}
